@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+</head>
+<body>
+    <main>
+        <a href="./index.html">Home</a>
+
+        <h1>Kontakt</h1>
+
+        <hr style="color: #0800ff; border-style: solid;">
+
+        <form action="https://getform.io/f/5d0ff3cf-a702-4eeb-868a-5bfcf5669b2f" method="post">
+
+                    
+            <fieldset>
+                <legend>Anrede</legend>
+                <div>
+                    <input type="radio" name="geschlecht" value="mann">
+                    <label for="mann">Mann</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="geschlecht" value="frau" checked>
+                    <label for="frau">frau</label>
+                </div>
+            </fieldset>
+
+
+             <div>
+                <label for="">Vor- und Nachname</label>
+                <input type="text" name="fullname" required>
+            </div>
+        
+            <div>
+                <label for="">E-Mail Adresse</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="frage">Wie bist Du auf die Website gelangt?</label>
+                    <select id="frage" name="antwort">
+                        <option value="antwort1">Über eine Suchmaschine</option>
+                        <option value="antwort2">Über soziale Medien</option>
+                        <option value="antwort3">Durch Empfehlung von Freunden</option>
+                        <option value="antwort4">Direkteingabe der URL</option>
+                        <option value="antwort5">Durch Werbung</option>
+                    </select>
+            </div>
+
+            <div>
+                <label for="">Nachricht</label>
+                <textarea name="message" required></textarea>
+            </div>
+
+            <button type="submit">Senden</button>
+
+        </form>
+
+    </main>
+</body>
+</html>
